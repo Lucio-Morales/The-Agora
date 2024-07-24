@@ -1,8 +1,9 @@
+import Register from "./pages/auth/components/Register";
 
 function App() {
   return (
     <>
-      <h1>Hello bro! :D</h1>
+      <Register />
     </>
   )
 }
