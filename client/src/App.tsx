@@ -1,9 +1,9 @@
-import Register from "./pages/auth/components/Register";
+import { Outlet } from "react-router-dom"
 
 function App() {
   return (
     <>
-      <Register />
+      <Outlet />
     </>
   )
 }
